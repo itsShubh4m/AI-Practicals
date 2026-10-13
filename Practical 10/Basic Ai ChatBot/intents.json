@@ -1,0 +1,250 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening", "how are you", "hello chatbot"],
+      "responses": ["Hello! How can I help you?", "Hi! Ask me an AI or ML question.", "Welcome! Let's explore Artificial Intelligence."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "see you later"],
+      "responses": ["Goodbye! Have a nice day.", "See you again!", "Thanks for chatting with me."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "thank you so much"],
+      "responses": ["You're welcome!", "Happy to help!", "Glad I could help."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "help me", "what can I ask", "show available topics", "what topics do you know"],
+      "responses": ["Ask me about AI, Machine Learning, Deep Learning, Python, TensorFlow, neural networks, NLP, computer vision, algorithms, training, testing, and model evaluation."]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["what is artificial intelligence", "define AI", "explain artificial intelligence", "what is AI", "tell me about AI", "how does AI work"],
+      "responses": ["Artificial Intelligence is a branch of computer science that enables machines to perform tasks requiring human-like intelligence.", "AI systems can perform tasks such as recognizing images, understanding language, making predictions, and solving problems."]
+    },
+    {
+      "tag": "types_of_ai",
+      "patterns": ["what are the types of AI", "types of artificial intelligence", "explain narrow AI", "what is general AI", "classify AI"],
+      "responses": ["AI is commonly categorized as narrow AI, which performs specific tasks, and hypothetical general AI, which would have broad human-like capabilities. Another classification uses reactive machines, limited-memory systems, and other theoretical categories."]
+    },
+    {
+      "tag": "applications",
+      "patterns": ["applications of AI", "uses of artificial intelligence", "where is AI used", "real world applications of AI", "how is AI useful"],
+      "responses": ["AI is used in healthcare, agriculture, education, banking, robotics, transportation, cybersecurity, and customer support."]
+    },
+    {
+      "tag": "advantages_ai",
+      "patterns": ["advantages of AI", "benefits of artificial intelligence", "why is AI useful", "what are the benefits of AI"],
+      "responses": ["AI can automate repetitive tasks, analyze large datasets, support decision-making, improve productivity, and provide services around the clock."]
+    },
+    {
+      "tag": "limitations_ai",
+      "patterns": ["disadvantages of AI", "limitations of AI", "problems with artificial intelligence", "risks of AI"],
+      "responses": ["AI may produce incorrect results, reflect bias in training data, raise privacy concerns, require substantial computing resources, and automate some jobs."]
+    },
+    {
+      "tag": "ml",
+      "patterns": ["what is machine learning", "define machine learning", "explain ML", "what is ML", "tell me about machine learning"],
+      "responses": ["Machine Learning is a branch of AI in which computers learn patterns from data to make predictions or decisions."]
+    },
+    {
+      "tag": "types_of_ml",
+      "patterns": ["types of machine learning", "what are the types of ML", "explain supervised learning", "explain unsupervised learning", "what is reinforcement learning"],
+      "responses": ["The main types of Machine Learning are supervised learning, unsupervised learning, and reinforcement learning. They learn from labeled examples, unlabeled data, and rewards or penalties respectively."]
+    },
+    {
+      "tag": "supervised_learning",
+      "patterns": ["what is supervised learning", "define supervised learning", "examples of supervised learning", "how does supervised learning work"],
+      "responses": ["Supervised learning trains a model using labeled examples. Common tasks include classification and regression. Examples include spam detection and house-price prediction."]
+    },
+    {
+      "tag": "unsupervised_learning",
+      "patterns": ["what is unsupervised learning", "define unsupervised learning", "examples of unsupervised learning", "what is clustering"],
+      "responses": ["Unsupervised learning finds patterns in unlabeled data. Clustering customers into groups is a common example."]
+    },
+    {
+      "tag": "reinforcement_learning",
+      "patterns": ["what is reinforcement learning", "define reinforcement learning", "how does reinforcement learning work", "examples of reinforcement learning"],
+      "responses": ["Reinforcement learning trains an agent to choose actions by receiving rewards or penalties from its environment. It is used in robotics, games, and control systems."]
+    },
+    {
+      "tag": "classification",
+      "patterns": ["what is classification in ML", "explain classification", "classification algorithm", "give an example of classification"],
+      "responses": ["Classification predicts a category or class. Examples include classifying an email as spam or not spam and identifying an image as a cat or dog."]
+    },
+    {
+      "tag": "regression",
+      "patterns": ["what is regression in ML", "explain regression", "regression algorithm", "example of regression"],
+      "responses": ["Regression predicts a numerical value. For example, linear regression can estimate a house price from its features."]
+    },
+    {
+      "tag": "clustering",
+      "patterns": ["what is clustering in machine learning", "explain clustering", "clustering algorithms", "what is K means"],
+      "responses": ["Clustering groups similar data points without requiring predefined labels. K-means is a widely used clustering algorithm."]
+    },
+    {
+      "tag": "algorithms",
+      "patterns": ["machine learning algorithms", "list ML algorithms", "which algorithms are used in ML", "name some machine learning algorithms"],
+      "responses": ["Common ML algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forests, K-Nearest Neighbors, Support Vector Machines, K-means, and Naive Bayes."]
+    },
+    {
+      "tag": "decision_tree",
+      "patterns": ["what is a decision tree", "explain decision tree algorithm", "how does a decision tree work", "uses of decision trees"],
+      "responses": ["A Decision Tree makes predictions using a tree-like structure of feature-based decisions. It can be used for both classification and regression."]
+    },
+    {
+      "tag": "random_forest",
+      "patterns": ["what is random forest", "explain random forest algorithm", "how does random forest work"],
+      "responses": ["Random Forest combines predictions from multiple decision trees. It often improves generalization compared with a single tree."]
+    },
+    {
+      "tag": "knn",
+      "patterns": ["what is KNN", "explain K nearest neighbors", "how does KNN work", "KNN algorithm"],
+      "responses": ["K-Nearest Neighbors predicts a class or value using nearby training examples. The parameter K specifies how many neighbors are considered."]
+    },
+    {
+      "tag": "svm",
+      "patterns": ["what is SVM", "explain support vector machine", "how does SVM work", "support vector machine algorithm"],
+      "responses": ["A Support Vector Machine finds a decision boundary that separates classes. Kernel functions can help it model nonlinear boundaries."]
+    },
+    {
+      "tag": "naive_bayes",
+      "patterns": ["what is naive bayes", "explain naive bayes algorithm", "how does naive bayes work", "naive bayes classifier"],
+      "responses": ["Naive Bayes is a probabilistic classifier based on Bayes' theorem. It assumes features are conditionally independent given the class."]
+    },
+    {
+      "tag": "linear_regression",
+      "patterns": ["what is linear regression", "explain linear regression", "linear regression example", "how does linear regression work"],
+      "responses": ["Linear Regression models the relationship between input features and a numerical target using a linear equation."]
+    },
+    {
+      "tag": "logistic_regression",
+      "patterns": ["what is logistic regression", "explain logistic regression", "logistic regression algorithm"],
+      "responses": ["Logistic Regression estimates class probabilities and is commonly used for binary classification."]
+    },
+    {
+      "tag": "overfitting",
+      "patterns": ["what is overfitting", "explain overfitting in ML", "how to prevent overfitting", "why does a model overfit"],
+      "responses": ["Overfitting occurs when a model learns training data too closely and performs poorly on unseen data. Regularization, dropout, more training data, and cross-validation can help."]
+    },
+    {
+      "tag": "underfitting",
+      "patterns": ["what is underfitting", "explain underfitting", "how to prevent underfitting"],
+      "responses": ["Underfitting occurs when a model is too simple or insufficiently trained to learn important patterns. A more suitable model or better training may help."]
+    },
+    {
+      "tag": "training_testing",
+      "patterns": ["what is training data", "what is testing data", "difference between training and testing data", "why split a dataset"],
+      "responses": ["Training data teaches the model. Testing data evaluates performance on examples not used for fitting. A separate validation set can be used to tune model settings."]
+    },
+    {
+      "tag": "accuracy",
+      "patterns": ["what is model accuracy", "define accuracy in machine learning", "how to calculate accuracy", "what is classification accuracy"],
+      "responses": ["Accuracy is the proportion of predictions that are correct. It can be misleading on imbalanced datasets, so precision, recall, and F1-score may also be useful."]
+    },
+    {
+      "tag": "precision_recall",
+      "patterns": ["what is precision and recall", "explain precision", "explain recall", "difference between precision and recall"],
+      "responses": ["Precision measures how many predicted positives are truly positive. Recall measures how many actual positives the model identifies."]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["what is deep learning", "define deep learning", "difference between ML and deep learning", "explain deep learning"],
+      "responses": ["Deep Learning is a branch of Machine Learning that uses neural networks with multiple layers to learn complex patterns."]
+    },
+    {
+      "tag": "neural_network",
+      "patterns": ["what is a neural network", "explain neural networks", "what is an artificial neural network", "how does a neural network work"],
+      "responses": ["A neural network contains interconnected computational units arranged in layers. It learns patterns by adjusting weights during training."]
+    },
+    {
+      "tag": "activation_functions",
+      "patterns": ["what is an activation function", "explain ReLU", "what is sigmoid activation", "why use activation functions"],
+      "responses": ["Activation functions introduce nonlinear behavior into neural networks. Common examples include ReLU, sigmoid, and tanh."]
+    },
+    {
+      "tag": "epochs",
+      "patterns": ["what is an epoch", "define epoch in deep learning", "what is batch size", "what is an iteration in ML"],
+      "responses": ["An epoch is one complete pass through the training dataset. Batch size is the number of examples processed together in one training step."]
+    },
+    {
+      "tag": "loss_function",
+      "patterns": ["what is a loss function", "explain loss in machine learning", "why is loss calculated", "what is categorical cross entropy"],
+      "responses": ["A loss function measures the difference between a model's predictions and target values. Training aims to minimize this loss."]
+    },
+    {
+      "tag": "optimizer",
+      "patterns": ["what is an optimizer", "explain Adam optimizer", "what is gradient descent", "why use an optimizer"],
+      "responses": ["An optimizer updates model parameters to reduce the loss. Common choices include Gradient Descent, SGD, and Adam."]
+    },
+    {
+      "tag": "tensorflow",
+      "patterns": ["what is tensorflow", "explain tensorflow", "why use tensorflow", "what is tensorflow used for"],
+      "responses": ["TensorFlow is an open-source machine learning framework used to build, train, and deploy machine learning models."]
+    },
+    {
+      "tag": "keras",
+      "patterns": ["what is keras", "explain keras", "difference between tensorflow and keras", "what is tf keras"],
+      "responses": ["Keras provides a high-level interface for building and training neural networks. TensorFlow includes tf.keras for this purpose."]
+    },
+    {
+      "tag": "python",
+      "patterns": ["what is python", "tell me about python", "why use python", "advantages of python"],
+      "responses": ["Python is a high-level programming language widely used in AI, machine learning, web development, automation, and data science."]
+    },
+    {
+      "tag": "numpy",
+      "patterns": ["what is numpy", "explain numpy", "why use numpy in ML"],
+      "responses": ["NumPy is a Python library for numerical computing. It provides arrays and mathematical operations useful for machine learning."]
+    },
+    {
+      "tag": "nlp",
+      "patterns": ["what is NLP", "define NLP", "what is natural language processing", "explain NLP", "how do computers process language"],
+      "responses": ["Natural Language Processing enables computers to process and analyze human language. Applications include chatbots, translation, and sentiment analysis."]
+    },
+    {
+      "tag": "tokenization",
+      "patterns": ["what is tokenization", "explain tokenization in NLP", "what are tokens", "how does tokenization work"],
+      "responses": ["Tokenization splits text into smaller units such as words, subwords, or characters for further processing."]
+    },
+    {
+      "tag": "bag_of_words",
+      "patterns": ["what is bag of words", "explain bag of words", "how does bag of words work"],
+      "responses": ["Bag of Words represents text using word occurrence or frequency features while ignoring most word-order information."]
+    },
+    {
+      "tag": "computer_vision",
+      "patterns": ["what is computer vision", "explain computer vision", "applications of computer vision", "how does computer vision work"],
+      "responses": ["Computer Vision enables computers to interpret images and videos. Applications include object detection, facial recognition, and medical image analysis."]
+    },
+    {
+      "tag": "cnn",
+      "patterns": ["what is CNN in deep learning", "explain convolutional neural network", "what are CNNs used for"],
+      "responses": ["A Convolutional Neural Network is a neural network commonly used for image processing because it learns spatial features such as edges and shapes."]
+    },
+    {
+      "tag": "generative_ai",
+      "patterns": ["what is generative AI", "explain generative artificial intelligence", "how does generative AI work", "examples of generative AI"],
+      "responses": ["Generative AI models create new content such as text, images, audio, or code based on patterns learned from data."]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": ["what is a chatbot", "define chatbot", "how does a chatbot work", "what can you do", "who are you"],
+      "responses": ["I am a TensorFlow chatbot that predicts the intent of your message and selects a predefined response from my dataset."]
+    },
+    {
+      "tag": "applications_ml",
+      "patterns": ["applications of machine learning", "uses of ML", "where is machine learning used", "real world ML examples"],
+      "responses": ["Machine Learning is used for spam filtering, fraud detection, recommendations, demand forecasting, medical analysis, and image classification."]
+    },
+    {
+      "tag": "overfitting_vs_underfitting",
+      "patterns": ["difference between overfitting and underfitting", "compare overfitting and underfitting", "overfitting versus underfitting"],
+      "responses": ["Overfitting means a model fits training data too closely and generalizes poorly. Underfitting means it fails to learn important patterns even from the training data."]
+    }
+  ]
+}
